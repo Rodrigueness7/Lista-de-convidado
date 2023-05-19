@@ -8,7 +8,23 @@ button.addEventListener("click", () =>{
     
     array.push(valor)
     localStorage.setItem("meuArr",JSON.stringify(array))
-    result.innerHTML = array.join("<br>")
+    
+   
 
 
+})
+
+result.style.display = "none"
+
+button2.addEventListener("click", () =>{
+    let username = "arodrigues"
+    let password = 1937;
+   
+    if(inputUsername.value == username && inputPassword.value == password){
+        result.style.display = "block"
+        result.innerHTML = "<h1>Lista de Convidados</h1>" + array.join("<br>")
+    }else{
+        result.style.display = "block"
+        result.innerHTML = "Usuário ou Senha incorreto"
+    }
 })
