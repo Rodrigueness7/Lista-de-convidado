@@ -1,0 +1,14 @@
+.title{
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+}
+.admin{
+    
+    position:relative;
+    top: 20px;
+}
+.input{
+    display: block;
+    margin-bottom: 10px;
+}
