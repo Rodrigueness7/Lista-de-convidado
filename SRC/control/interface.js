@@ -24,7 +24,7 @@ button2.addEventListener("click", () =>{
 
 
     if(inputUsername.value == username && inputPassword.value == password){
-       location.href = "http://127.0.0.1:5500/SRC/view/pagina.html"
+       location.replace("http://127.0.0.1:5500/SRC/view/pagina.html")
 
     
     }else{

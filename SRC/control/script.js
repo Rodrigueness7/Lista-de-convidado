@@ -5,4 +5,5 @@ let inputUsername = document.getElementById("username");
 let inputPassword = document.getElementById("password");
 let button2 = document.getElementById("button2");
 let container = document.getElementById("container")
+let link = document.getElementById("button")
 let array = [];
